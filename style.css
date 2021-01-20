@@ -1324,7 +1324,14 @@ hr.invis1 {
     margin: 10px 0;
     border-color: transparent;
 }
-
+.parallaxie {
+    background-attachment: fixed!important;
+}
+@supports (-webkit-touch-callout: inherit) {
+    .parallaxie {
+        background-attachment: scroll!important;
+    }
+}
 .section.parallax hr.hr1 {
     border-color: rgba(255, 255, 255, 0.1);
 }
