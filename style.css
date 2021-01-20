@@ -1330,6 +1330,7 @@ hr.invis1 {
 @supports (-webkit-touch-callout: inherit) {
     .parallaxie {
         background-attachment: scroll!important;
+        background-position: center!important;
     }
 }
 .section.parallax hr.hr1 {
